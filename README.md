@@ -169,3 +169,4 @@ Once published to npm, anyone in the world can run `npx humanize-code install` w
 ## 📄 License
 
 [MIT](LICENSE) © 2026 Aniket Kumar
+
