@@ -1,0 +1,48 @@
+{
+  "name": "humanize-code",
+  "version": "1.0.0",
+  "description": "AI agent skill to make code look like it was written by a real human developer instead of an AI",
+  "main": "./bin/cli.js",
+  "bin": {
+    "humanize-code": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js status"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "agents",
+    "skills",
+    "agent-skills",
+    "claude-code",
+    "cursor",
+    "antigravity",
+    "gemini",
+    "copilot",
+    "windsurf",
+    "codex",
+    "humanize-code",
+    "anti-slop"
+  ],
+  "author": "Aniket Kumar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aniketkumar-01/humanize-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aniketkumar-01/humanize-code/issues"
+  },
+  "homepage": "https://github.com/Aniketkumar-01/humanize-code#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

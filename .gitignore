@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Local agent & skills test folders
+.agents/
+.agent/
+.claude/
+.cursor/
+.windsurf/
+.github/skills/
+.gemini/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Editor directories
+.vscode/
+.idea/
