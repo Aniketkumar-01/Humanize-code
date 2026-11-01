@@ -4,7 +4,7 @@
   "description": "AI agent skill to make code look like it was written by a real human developer instead of an AI",
   "main": "./bin/cli.js",
   "bin": {
-    "humanize-code": "./bin/cli.js"
+    "humanize-code": "bin/cli.js"
   },
   "files": [
     "bin",
@@ -36,7 +36,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aniketkumar-01/Humanize-code.git"
+    "url": "git+https://github.com/Aniketkumar-01/Humanize-code.git"
   },
   "bugs": {
     "url": "https://github.com/Aniketkumar-01/Humanize-code/issues"
