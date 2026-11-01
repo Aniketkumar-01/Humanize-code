@@ -10,7 +10,7 @@ const path = require('path');
 const os = require('os');
 const readline = require('readline');
 
-const PKG_VERSION = '1.0.1';
+const PKG_VERSION = '1.0.2';
 
 // ANSI colors
 const useColor = !process.env.NO_COLOR && process.stdout.isTTY;
@@ -171,6 +171,7 @@ ${c.bold}USAGE:${c.reset}
 
 ${c.bold}COMMANDS:${c.reset}
   ${c.green}install${c.reset}              Install the humanize-code skill (default)
+  ${c.green}update${c.reset}               Update currently installed skills to latest version
   ${c.yellow}status${c.reset}               Check installation status across providers
   ${c.red}uninstall${c.reset}            Remove humanize-code from providers
   ${c.cyan}help${c.reset}                 Show this help message
@@ -476,6 +477,13 @@ async function main() {
     case 'install':
       printHeader();
       await runInstall(options, projectRoot, homeDir);
+      break;
+
+    case 'update':
+      printHeader();
+      console.log(`${c.bold}Updating installed humanize-code skills...${c.reset}\n`);
+      // Update re-runs install for already-installed or specified scopes/providers
+      await runInstall({ ...options, yes: options.yes || !process.stdin.isTTY }, projectRoot, homeDir);
       break;
 
     case 'uninstall':

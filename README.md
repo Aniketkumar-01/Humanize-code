@@ -32,6 +32,9 @@ npx humanize-code install -g -y
 # Install specifically for Claude Code and Cursor
 npx humanize-code install --providers claude,cursor -y
 
+# Update installed skills to latest version
+npx humanize-code update
+
 # Check where humanize-code is currently installed
 npx humanize-code status
 
