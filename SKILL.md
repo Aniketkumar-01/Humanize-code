@@ -1,6 +1,7 @@
 ---
 name: humanize-code
 description: Makes code look like it was written by a real software engineer working in a team, instead of an AI. Use this skill whenever you write, edit, refactor, or review code in ANY programming language and the user wants it to feel human, natural, less "AI-generated", or less perfect. Also use it when the user mentions humanizing code, AI slop, removing AI-looking comments or naming, or says the code looks too clean or too polished. Applies to the whole codebase by default, or only to the scope the user names (a file, function, selection, or commit).
+version: 1.0.1
 ---
 
 # Humanize Code

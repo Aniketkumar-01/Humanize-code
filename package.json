@@ -1,6 +1,6 @@
 {
   "name": "humanize-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI agent skill to make code look like it was written by a real human developer instead of an AI",
   "main": "./bin/cli.js",
   "bin": {
