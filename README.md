@@ -1,6 +1,6 @@
 # humanize-code 🧑‍💻
 
-[![npm version](https://img.shields.io/badge/npm-1.0.0-cb3837.svg?style=flat-square)](https://www.npmjs.com/package/humanize-code)
+[![npm version](https://img.shields.io/badge/npm-1.0.3-cb3837.svg?style=flat-square)](https://www.npmjs.com/package/humanize-code)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg?style=flat-square)](https://nodejs.org/)
 

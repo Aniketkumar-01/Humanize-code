@@ -10,7 +10,7 @@ const path = require('path');
 const os = require('os');
 const readline = require('readline');
 
-const PKG_VERSION = '1.0.2';
+const PKG_VERSION = '1.0.3';
 
 // ANSI colors
 const useColor = !process.env.NO_COLOR && process.stdout.isTTY;
